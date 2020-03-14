@@ -1,0 +1,11 @@
+The basic syntax for a Smart Commit message is:
+<ignored text> <ISSUE_KEY> <ignored text> #<COMMAND> <optional COMMAND_ARGUMENTS>
+Any text between the issue key and the command is ignored.
+There are three commands you can use in your Smart Commit messages:
+comment
+time
+transition
+
+Examples:
+JRA-123 #time 2d 5h #comment Task completed ahead of schedule #resolve
+JRA-123 JRA-234 JRA-345 #resolve #time 2d 5h #comment Task completed ahead of schedule
